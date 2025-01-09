@@ -10,7 +10,7 @@ header {
   background-color: rgb(255, 248, 243);
   background-image: url(./images/developer.png), url(./images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: 20px , bottom right;
+  background-position: 20px, bottom right;
   padding: 20px 20px 0 20px;
 }
 .primary-orange {
@@ -85,8 +85,45 @@ ul li {
   font-weight: 400;
   margin: 20px 0;
 }
-.banner-img{
+.banner-img {
   width: 580px;
   height: 670px;
 }
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about {
+  border-radius: 10px;
+  background: rgb(255, 248, 243);
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+.about-text-section > h2 {
+  font-size: 35px;
+}
+.about-para {
+  font-size: 18px;
+  margin: 30px 0;
+}
+.about-para,
+.about-items {
+  color: rgb(117, 117, 117);
+}
+.about-items {
+  font-size: 20px;
+}
+.about-description {
+  font-weight: 700;
+}
+.about-text-section {
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+.about-items-container {
+  display: flex;
+  justify-content: space-around;
+}
