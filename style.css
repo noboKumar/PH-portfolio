@@ -6,6 +6,12 @@
 body {
   font-family: "Open Sans", serif;
 }
+header {
+  background-color: rgb(255, 248, 243);
+  background-image: url(./images/developer.png), url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: 20px , bottom right;
+}
 .primary-orange {
   color: rgb(253, 110, 10);
 }
@@ -30,8 +36,7 @@ ul li {
   font-weight: 400;
   cursor: pointer;
 }
-.btn {
-  border-radius: 5px;
+.btn-primary {
   background: rgb(253, 110, 10);
   color: white;
   padding: 18px 30px;
@@ -39,4 +44,39 @@ ul li {
   font-weight: 700;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
+}
+.btn-secondary {
+  border: 1px solid rgb(253, 110, 10);
+  background-color: rgb(255, 248, 243);
+  color: rgb(253, 110, 10);
+  cursor: pointer;
+  padding: 18px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.greet {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-para {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+}
+.banner-content {
+  margin-left: 230px;
+}
+.banner {
+  display: flex;
 }
