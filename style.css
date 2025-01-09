@@ -11,6 +11,7 @@ header {
   background-image: url(./images/developer.png), url(./images/header_bg.png);
   background-repeat: no-repeat;
   background-position: 20px , bottom right;
+  padding: 20px 20px 0 20px;
 }
 .primary-orange {
   color: rgb(253, 110, 10);
@@ -62,6 +63,15 @@ ul li {
   font-size: 45px;
   font-weight: 600;
 }
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 35px 0 230px;
+}
+.banner-content {
+  max-width: 580px;
+}
 .banner-title {
   color: rgb(24, 24, 24);
   font-family: Open Sans;
@@ -73,10 +83,10 @@ ul li {
   font-family: Open Sans;
   font-size: 18px;
   font-weight: 400;
+  margin: 20px 0;
 }
-.banner-content {
-  margin-left: 230px;
+.banner-img{
+  width: 580px;
+  height: 670px;
 }
-.banner {
-  display: flex;
-}
+
