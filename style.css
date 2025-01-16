@@ -281,18 +281,20 @@ textarea{
   border-radius: 5px;
   font-family: "Open Sans";
   resize: none;
-  background-color: aqua;
 }
 
 /* responsive layout*/
-.hide{
-  display: none;
-}
 @media screen and (max-width: 567px){
   body{
     margin: 0 10px;
   }
-  .skill-group, footer{
+  .skill-group, 
+  footer, 
+  .edu-container, 
+  .banner, 
+  .about-items-container,
+  ul,
+  nav{
     flex-direction: column;
   }
   .resume-head{
@@ -302,7 +304,6 @@ textarea{
     padding: 10px;
   }
   .edu-container{
-    flex-direction: column;
     padding-left: 10px;
   }
   .connect p{
@@ -319,10 +320,82 @@ textarea{
     width: 100%;
     padding: 10px 0;
   }
-  .about-items-container{
+  .about{
+    padding: 50px 20px;
+  }
+  nav{
+    align-items: center;
+  }
+  .banner{
+    margin: auto;
+  }
+  .banner-img{
+    width: 100%;
+    height: 100%;
+  }
+  header{
+    background-image: none;
+  }
+  nav{
+    margin: 0 auto;
+  }
+  ul{
+    padding: 20px;
+  }
+  .btn-container{
+    display: flex;
     flex-direction: column;
+    gap: 5px;
+  }
+}
+@media screen and (min-width:567px) and (max-width:992px){
+  body{
+    margin: 0 10px;
+  }
+  .skill-group, 
+  footer,
+  .banner,
+  nav{
+    flex-direction: column;
+  }
+  .resume-head{
+    padding: 50px;
+  }
+  .skill-head-para{
+    padding: 10px;
+  }
+  .edu-container{
+    padding-left: 10px;
+  }
+  .connect p{
+    width: 100%;
+    height: 100%;
+  }
+  form{
+    max-width: 540px;
+  }
+  input:not(.btn-primary){
+    padding: 20px 0;
+  }
+  textarea{
+    width: 100%;
+    padding: 10px 0;
   }
   .about{
     padding: 50px 20px;
+  }
+  .banner{
+    margin: auto;
+  }
+  .banner-img{
+    width: 100%;
+    height: 100%;
+  }
+  nav{
+    margin: 0 auto;
+    align-items: center;
+  }
+  ul{
+    padding: 20px;
   }
 }
