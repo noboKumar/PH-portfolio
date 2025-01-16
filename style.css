@@ -319,4 +319,10 @@ textarea{
     width: 100%;
     padding: 10px 0;
   }
+  .about-items-container{
+    flex-direction: column;
+  }
+  .about{
+    padding: 50px 20px;
+  }
 }
